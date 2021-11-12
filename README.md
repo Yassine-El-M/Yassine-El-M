@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Yassine-El-Marhraoui
+- 👋 Hi, I’m Yassine-El-Marhraoui, Masters in Actuarial Sciences and Risk Management
 - 👀 I’m a data science enthusiast.
 - 🌱 I’m currently diving into the field of Machine Learning.
 - 💞️ I’m looking to collaborate on projects related to ethical finance or projects that have positive social impact
