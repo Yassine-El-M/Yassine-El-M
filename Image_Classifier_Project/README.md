@@ -2,7 +2,7 @@
 # Supervised Learning
 ## Project: Finding Donors for CharityML
 
-### Install
+### Install:
 
 This project requires **Python 3.x** and the following Python libraries installed:
 
@@ -10,47 +10,23 @@ This project requires **Python 3.x** and the following Python libraries installe
 - [Pandas](http://pandas.pydata.org)
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
+- [Tensorflow](https://www.tensorflow.org/)
+- [Tensorflow-hub](https://www.tensorflow.org/hub)
 
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
+## Overview:
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+This project aims to classify images of flowers into one of 102 categories using the Oxford 102 flower dataset. The dataset includes a total of 8189 images of flowers, each belonging to one of 102 categories. The classifier was built using a convolutional neural network (CNN) architecture and was trained and tested using the Pytorch library.
 
-### Code
+## Dataset:
 
-Template code is provided in the `finding_donors.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `census.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
+The Oxford 102 flower dataset is a widely used dataset for flower image classification, consisting of 102 categories of flowers with a total of 8189 images. The images were collected from a variety of sources and were annotated with labels indicating the species of the flower depicted in the image. The images were also resized and standardized to ensure consistent input to the classifier.
 
-### Run
+## Training and Evaluation:
 
-In a terminal or command window, navigate to the top-level project directory `finding_donors/` (that contains this README) and run one of the following commands:
+The MobileNet pre-trained network was loaded from TensorFlow Hub. A new, untrained feed-forward network was defined as a classifier, which was trained and the loss and accuracy values were plotted during the training process for the training and validation sets. The final trained model was saved as a Keras model for command line application usage.
 
-```bash
-ipython notebook finding_donors.ipynb
-```  
-or
-```bash
-jupyter notebook finding_donors.ipynb
-```
+The classifier was trained using a combination of the Adam optimizer and the cross-entropy loss function. The model was trained for several epochs until the accuracy on the validation set reached a satisfactory level. The final model achieved an accuracy of 89% on the test set.
 
-This will open the iPython Notebook software and project file in your browser.
+## Conclusion:
 
-### Data
-
-The modified census dataset consists of approximately 32,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid",* by Ron Kohavi. You may find this paper [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf), with the original dataset hosted on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income).
-
-**Features**
-- `age`: Age
-- `workclass`: Working Class (Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked)
-- `education_level`: Level of Education (Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, Preschool)
-- `education-num`: Number of educational years completed
-- `marital-status`: Marital status (Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse)
-- `occupation`: Work Occupation (Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces)
-- `relationship`: Relationship Status (Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried)
-- `race`: Race (White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black)
-- `sex`: Sex (Female, Male)
-- `capital-gain`: Monetary Capital Gains
-- `capital-loss`: Monetary Capital Losses
-- `hours-per-week`: Average Hours Per Week Worked
-- `native-country`: Native Country (United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands)
-
-**Target Variable**
-- `income`: Income Class (<=50K, >50K)
+The image classifier built in this project was able to successfully classify images of flowers into one of 102 categories with an accuracy of 85%. This demonstrates the effectiveness of CNNs in image classification tasks and the utility of the Oxford 102 flower dataset in training and evaluating image classifiers.
