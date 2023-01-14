@@ -1,5 +1,5 @@
 # Udacity - Bertelsmann Scholarship : Introduction to Machine Learning with TensorFlow
-This repo contains the 3 projects for the Udacity Intro to Machine Learning with TensorFlow course.
+This repository contains the three projects required to complete the "Intro to Machine Learning with TensorFlow" Nanodegree scholarship offered by Udacity and to earn [the certificate.](https://drive.google.com/file/d/1S1mEpxY9x1linU-EZqQb-veJP3X8EDBF/view?usp=share_link)
 
 1) Supervised Learning - Finding Donors for CharityML
 2) Deep Learning - Image Classification with Tensorflow
