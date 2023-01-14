@@ -1,3 +1,10 @@
+Udacity x Bertelsmann Scholarship - Introduction to Machine Learning with TensorFlow
+This repo contains the 3 projects for the Udacity Intro to Machine Learning with TensorFlow course.
+
+Supervised Learning - Finding Donors for CharityML
+Deep Learning - Image Classification with Tensorflow
+Unsupervised Learning - Identify Customer Segments with Arvato
+
 - 👋 Hi, I’m Yassine-El-Marhraoui, Masters in Actuarial Sciences and Risk Management
 - 👀 I’m a data science enthusiast.
 - 🌱 I’m currently diving into the field of Machine Learning.
