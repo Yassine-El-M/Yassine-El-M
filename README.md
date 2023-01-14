@@ -1,9 +1,9 @@
 # Udacity - Bertelsmann Scholarship : Introduction to Machine Learning with TensorFlow
 This repository contains the three projects required to complete the "Intro to Machine Learning with TensorFlow" Nanodegree scholarship offered by Udacity and to earn [the certificate.](https://drive.google.com/file/d/1S1mEpxY9x1linU-EZqQb-veJP3X8EDBF/view?usp=share_link)
 
-1) Supervised Learning - Finding Donors for CharityML
-2) Deep Learning - Image Classification with Tensorflow
-3) Unsupervised Learning - Identify Customer Segments with Arvato
+1) Supervised Learning - [Finding Donors for CharityML](https://github.com/Yassine-El-M/Yassine-El-M/tree/Udacity_AI_Nanodegree/Finding_donors_Project)
+2) Deep Learning - [Image Classification with Tensorflow](https://github.com/Yassine-El-M/Yassine-El-M/tree/Udacity_AI_Nanodegree/Image_Classifier_Project)
+3) Unsupervised Learning - [Identify Customer Segments with Arvato](https://github.com/Yassine-El-M/Yassine-El-M/tree/Udacity_AI_Nanodegree/Customer_Segments_Identification_Project)
 
 ## -Supervised Learning:
 I started by learning how to use Sklearn to train and evaluate models. I reviewed the primary measures for assessing models, including recall, accuracy, and precision. Then, I discovered some typical supervised learning techniques, such as support vector machines, decision trees, naive Bayes, neural networks, and linear and logistic regression. In the section covering ensemble methods, I learnt how to combine different algorithms to maximize their potential. Every section had a lab, where I was able to use Sklearn to put my knowledge to use.
