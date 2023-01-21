@@ -14,6 +14,8 @@ This section taught me the basic math and theory of neural networks, which can b
 ## -Unsupervised Learning:
 In this section, I delved into the primary unsupervised learning algorithms, including various clustering techniques and dimensionality reduction methods. The emphasis of unsupervised learning is on finding patterns or groupings within data without a predefined goal, such as accuracy. It is also commonly utilized to decrease the number of features in a dataset while maintaining crucial information. Through several mini-projects and labs, I had the opportunity to apply these concepts using real data and gain a better understanding of unsupervised learning.
 
+<img src="./Udacity%20Nanodegree%20Graduation%20Certificate.png">
+
 - 👋 I’m Yassine-El-Marhraoui, Masters in Actuarial Sciences and Risk Management
 - 👀 I’m a data science enthusiast.
 - 🌱 I’m currently diving into the field of Machine Learning.
