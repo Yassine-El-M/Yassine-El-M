@@ -1,3 +1,5 @@
+![ALT](https://drive.google.com/file/d/15xm2qS3dlbADFhQkY51uUiTMa9VePn22/view?usp=share_link)
+
 - 👋 Hi, I’m Yassine-El-Marhraoui, Masters in Actuarial Sciences and Risk Management
 - 👀 I’m a data science enthusiast.
 - 🌱 I’m currently diving into the field of Machine Learning.
