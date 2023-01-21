@@ -1,4 +1,4 @@
-![ALT](https://drive.google.com/file/d/15xm2qS3dlbADFhQkY51uUiTMa9VePn22/view?usp=share_link)
+<img src=“https://github.com/Yassine-El-M/Yassine-El-M/blob/Portfolio/IBM%20Data%20Science%20Professional%20Certificate.jpg”>
 
 - 👋 Hi, I’m Yassine-El-Marhraoui, Masters in Actuarial Sciences and Risk Management
 - 👀 I’m a data science enthusiast.
